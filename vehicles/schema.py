@@ -1,6 +1,6 @@
 import graphene
 
-from Models.models import Vehicle, UploadedImages
+from models.models import Vehicle, UploadedImages
 
 
 class CreateVehicleEntry(graphene.Mutation):

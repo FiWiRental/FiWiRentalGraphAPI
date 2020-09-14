@@ -1,6 +1,6 @@
 import graphene
 
-from Models.models import Person, BaseAddress, UploadedImages
+from models.models import Person, BaseAddress, UploadedImages
 
 
 class CreateCustomer(graphene.Mutation):

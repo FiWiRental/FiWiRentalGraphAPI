@@ -1,5 +1,5 @@
 import graphene
-from Models.models import Rental, BaseAddress
+from models.models import Rental, BaseAddress
 
 
 class CreateRental(graphene.Mutation):
