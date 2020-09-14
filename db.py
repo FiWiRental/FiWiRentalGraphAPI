@@ -5,7 +5,7 @@ import os
 
 from mongoengine import connect
 
-from Models.models import Vehicle, Person, UploadedImages, BaseAddress
+from models.models import Vehicle, Person, UploadedImages, BaseAddress
 
 
 connect(os.getenv("MONGODB_DATABASE"), host=os.getenv("MONGODB_CONNECTION_STRING"), alias='default')
